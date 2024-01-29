@@ -25,7 +25,7 @@ function AlbumPicker() {
         <input name="artist" />
       </label>
       <button type="submit">Search</button>
-      <p>Albums:</p>
+      <p>Albums from the artist:</p>
       <ol>
         {albums.map((album) => (
           <li>{album}</li>
